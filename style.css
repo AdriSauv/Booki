@@ -8,14 +8,15 @@ body {
     padding: 0 50px;
 }
 
+.main {
+    margin: auto;
+}
+
 a {
     text-decoration: none;
     color: black;
 }
 
-.main {
-    margin: auto;
-}
 
 /* Header */
 
@@ -24,6 +25,7 @@ a {
     align-items: center;
     justify-content: space-between;
     margin: auto;
+    padding: 0 50px;
 }
 
 .headerImgImg {
