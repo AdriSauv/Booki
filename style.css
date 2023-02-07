@@ -415,11 +415,14 @@ a {
     border-radius: 20px;
     width: calc(25%);
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .activitiesContainerCardImg {
     width: 100%;
     height: 87%;
+    min-height: 87%;
     position: relative;
 }
 
@@ -432,7 +435,8 @@ a {
 }
 
 .activities h4 {
-    padding-left: 20px;
+    display: flex;
+    padding: 0 20px;
 }
 
 /* Design Footer */
@@ -447,13 +451,26 @@ a {
 }
 
 .about {
-    margin: 0 250px 0 70px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 70px;
 }
 
 .footer p {
-    margin: 10px 0;
+    margin: 7px 0;
 }
 
 .ourHosting {
-    margin: 0 250px 0 0;;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.help {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
 }
