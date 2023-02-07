@@ -220,12 +220,10 @@ a {
 .hosting {
     display: flex;
     flex-direction: row;
-    width: 100%;
     gap: 30px;
 }
 
 .mainHosting {
-    width: 70%;
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 30px;
@@ -381,10 +379,6 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-    .main {
-        margin: 0;
-        padding: 0;
-    }
     .mainHosting {
         order: 1;
         background-color: white;
@@ -403,4 +397,40 @@ a {
     .popularHostingGrid {
         flex-direction: column;
     }
+}
+
+/* Activities Design */
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.activitiesContainer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+    gap: 40px;
+}
+
+.activitiesContainerCard {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    width: calc(25%);
+    height: 100%;
+}
+
+.activitiesContainerCardImg {
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+
+.activitiesContainerCardImg img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
