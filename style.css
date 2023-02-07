@@ -5,6 +5,7 @@ body {
     max-width: 1400px;
     margin: 0;
     box-sizing: border-box;
+    padding: 0 30px;
 }
 
 a {
@@ -13,7 +14,6 @@ a {
 }
 
 .main {
-    padding: 0 30px;
     margin: auto;
 }
 
@@ -433,4 +433,27 @@ a {
     position: absolute;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
+}
+
+/* Design Footer */
+
+.footer {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    background-color: #F2F2F2;
+    justify-content:flex-start;
+    padding-top: 25px;
+}
+
+.about {
+    margin: 0 250px 0 70px;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.ourHosting {
+    margin: 0 250px 0 0;;
 }
