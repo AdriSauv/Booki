@@ -5,6 +5,7 @@ body {
     max-width: 1400px;
     margin: 0;
     box-sizing: border-box;
+    padding: 0 50px;
 }
 
 .main {
@@ -24,7 +25,6 @@ a {
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    padding: 0 50px;
 }
 
 .headerImgImg {
@@ -52,6 +52,9 @@ a {
 /* MEDIA QUERIES HEADER */
 
 @media screen and (max-width: 768px) {
+    body {
+        padding: 0;
+    }
     .header {
         flex-direction: column;
         padding: 20px 0 0 0;
@@ -74,9 +77,6 @@ a {
 
 /* Design Search Zone */
 
-.searchZone {
-    padding-left:50px;
-}
 .searchZoneTitle {
     font-weight: 700;
     margin-bottom: -0.5rem;
@@ -143,6 +143,9 @@ a {
 /* MEDIA QUERIES SEARCH ZONE MOBILE */
 
 @media screen and (max-width: 768px) {
+    .searchZone {
+        padding: 30px 50px 0 20px;
+    }
     .searchForm i{
         visibility: visible;
         transition-delay: 0s;
@@ -161,7 +164,6 @@ a {
     display: flex;
     margin-top: 30px;
     flex-wrap: wrap;
-    padding: 0 50px;
 }
 
 .filtersZoneTitle {
@@ -199,8 +201,14 @@ a {
 /* MEDIA QUERIES FILTRES */
 
 @media screen and (max-width: 768px) {
+    .filtersZone {
+        padding: 0 20px;
+    }
     .filtersZoneTitle {
         width: 100%;
+    }
+    .result {
+        padding-left: 20px;
     }
 }
 
@@ -209,7 +217,6 @@ a {
 .result {
     margin-top: 10px;
     margin-bottom: 30px;
-    padding: 0 50px;
 }
 
 .result i {
@@ -226,7 +233,6 @@ a {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    padding: 0 50px;
 }
 
 .mainHosting {
@@ -336,7 +342,6 @@ a {
     padding: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     height: 150px;
-    width: 100%;
 }
 
 .popularHostingCardContainer {
@@ -391,7 +396,7 @@ a {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 854px) {
     .mainHosting {
         order: 1;
         background-color: white;
@@ -406,6 +411,8 @@ a {
     }
     .popularHosting {
         order: 0;
+        padding: 25px 30px 40px 20px;
+        border-radius: 0px;
     }
     .popularHostingGrid {
         flex-direction: column;
@@ -418,7 +425,6 @@ a {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
-    padding: 0 50px;
 }
 
 .activitiesContainer {
@@ -465,7 +471,6 @@ a {
     display: flex;
     margin: 0;
     padding: 0;
-
 }
 
 @media screen and (max-width: 1193px){
@@ -482,7 +487,7 @@ a {
 /* Design Footer */
 
 .footer {
-    margin: 60px 50px 0 50px;
+    margin: 60px 0 0 0;
     display: flex;
     background-color: #F2F2F2;
     justify-content:flex-start;
