@@ -399,7 +399,10 @@ a {
         flex-direction: row;
     }
     .popularHosting {
-        width: 100%;
+        width: 93%
+    }
+    .popularHostingCard {
+        width: 30%;
     }
 }
 
@@ -420,13 +423,12 @@ a {
         order: 0;
         padding: 25px 30px 40px 20px;
         border-radius: 0px;
-        width: 90%;
     }
     .popularHostingGrid {
         flex-direction: column;
     }
     .popularHostingCard {
-
+        width: 97%;
     }
 }
 
