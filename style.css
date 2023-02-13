@@ -79,13 +79,12 @@ a {
 
 .searchZoneTitle {
     font-weight: 700;
-    margin-bottom: -0.5rem;
 }
 .searchZoneHeaderText{
     margin: 0 0 15px 0;
 }
 .searchZoneHeaderTitle{
-    margin: 10px 0 0 0;
+    margin: 10px 0;
     font-size: 22px;
 }
 
@@ -201,7 +200,7 @@ a {
 
 @media screen and (max-width: 768px) {
     .filters {
-        width: calc(40%);
+        width: calc(44%);
         padding: 10px 0 10px 10px;
         margin-bottom: 10px;
     }
@@ -210,6 +209,7 @@ a {
     }
     .filtersZoneTitle {
         width: 100%;
+        margin-bottom: 15px;
     }
     .filtersName {
         font-size: 11px;
@@ -399,7 +399,7 @@ a {
         flex-direction: row;
     }
     .popularHosting {
-        width: 93%
+        width: 100%;
     }
     .popularHostingCard {
         width: 30%;
@@ -410,7 +410,7 @@ a {
     .mainHosting {
         order: 1;
         background-color: white;
-        padding: 10px;
+        padding: 25px 30px 40px 20px;
     }
     .mainHostingGrid {
         flex-direction: column;
@@ -428,7 +428,7 @@ a {
         flex-direction: column;
     }
     .popularHostingCard {
-        width: 97%;
+        width: 100%;
     }
 }
 
@@ -524,7 +524,7 @@ figcaption {
 
 @media screen and (max-width: 768px){
     .activities {
-        padding: 0 20px;
+        padding: 25px 30px 40px 20px;
     }
     .activitiesContainer {
         flex-direction: column;
