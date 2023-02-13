@@ -227,6 +227,7 @@ a {
 .result {
     margin-top: 30px;
     margin-bottom: 30px;
+    display: flex;
 }
 
 .result i {
@@ -237,6 +238,11 @@ a {
     margin-right: 10px;
 }
 
+.result p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 /* design hosting main */
 
 .hosting {
