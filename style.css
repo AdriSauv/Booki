@@ -49,31 +49,7 @@ a {
     border-top-color: #0065fc;
 }
 
-/* MEDIA QUERIES HEADER */
 
-@media screen and (max-width: 768px) {
-    body {
-        padding: 0;
-    }
-    .header {
-        flex-direction: column;
-        padding: 20px 0 0 0;
-    }
-    .headerImg {
-        justify-content: center;
-    }
-    .cta {
-        width: 100%;
-        border-bottom-color: #D9D9D9;
-    }
-    .cta:hover {
-        border-top-color: transparent;
-        border-bottom-color: #0065fc;
-    }
-    .navbarContainer {
-        width: 100%;
-    }
-}
 
 /* Design Search Zone */
 
@@ -139,24 +115,6 @@ a {
     transition: width 0.2s;
 }
 
-/* MEDIA QUERIES SEARCH ZONE MOBILE */
-
-@media screen and (max-width: 768px) {
-    .searchZone {
-        padding: 30px 50px 0 20px;
-    }
-    .searchForm i{
-        visibility: visible;
-        transition-delay: 0s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .searchBtnText {
-        display: none;
-    }
-}
-
 /* Design Filtres */
 
 .filtersZone {
@@ -196,32 +154,6 @@ a {
     font-size: 23px;
 }
 
-/* MEDIA QUERIES FILTRES */
-
-@media screen and (max-width: 768px) {
-    .filters {
-        width: calc(44%);
-        padding: 10px 0 10px 10px;
-        margin-bottom: 10px;
-    }
-    .filtersZone {
-        padding: 0 20px;
-    }
-    .filtersZoneTitle {
-        width: 100%;
-        margin-bottom: 15px;
-    }
-    .filtersName {
-        font-size: 11px;
-    }
-    .result {
-        padding-left: 20px;
-    }
-}
-
-@media screen and (max-width: 768px){
-
-}
 /* Results */
 
 .result {
@@ -243,6 +175,7 @@ a {
     flex-wrap: wrap;
     align-items: center;
 }
+
 /* design hosting main */
 
 .hosting {
@@ -321,7 +254,7 @@ a {
     margin-top: 60px;
 }
 
-/* popular hosting */
+/* Design popular hosting */
 
 .popularHosting {
     width: 40%;
@@ -395,49 +328,6 @@ a {
 
 }
 
-/* MEDIA QUERIES */
-
-@media screen and (max-width: 992px){
-    .hosting {
-        flex-direction: column;
-    }
-    .popularHostingGrid {
-        flex-direction: row;
-    }
-    .popularHosting {
-        width: 100%;
-    }
-    .popularHostingCard {
-        width: 30%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .mainHosting {
-        order: 1;
-        background-color: white;
-        padding: 25px 30px 40px 20px;
-    }
-    .mainHostingGrid {
-        flex-direction: column;
-        width: 100%;
-    }
-    .mainHostingCard {
-        width: 100%;
-    }
-    .popularHosting {
-        order: 0;
-        padding: 25px 30px 40px 20px;
-        border-radius: 0px;
-    }
-    .popularHostingGrid {
-        flex-direction: column;
-    }
-    .popularHostingCard {
-        width: 100%;
-    }
-}
-
 /* Activities Design */
 
 .activities {
@@ -503,48 +393,7 @@ figcaption {
 }
 
 
-@media screen and (min-width: 992px){
-    .activitiesContainer {
-        flex-direction: row;
-        justify-content: space-around;
-        height: auto;
-        gap: 30px;
-    }
-    .activitiesContainer a {
-        width: 30%;
-    }
-}
 
-@media screen and (max-width: 992px){
-    .activitiesContainer {
-        flex-direction: row;
-        height: auto;
-    }
-    .activitiesContainer a {
-        height: 267px;
-    }
-    figcaption {
-        height: 20%;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .activities {
-        padding: 25px 30px 40px 20px;
-    }
-    .activitiesContainer {
-        flex-direction: column;
-        height: auto;
-        gap: 30px;
-    }
-    .activitiesContainer a {
-        width: 100%;
-        height: 190px;
-    }
-    figcaption {
-        height: 22%;
-    }
-}
 
 /* Design Footer */
 
@@ -583,9 +432,168 @@ figcaption {
     width: 30%;
 }
 
-@media screen and (max-width: 768px){
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 992px){
+
+    /* Media queries Activités */
+
+    .activitiesContainer {
+        flex-direction: row;
+        justify-content: space-around;
+        height: auto;
+        gap: 30px;
+    }
+    .activitiesContainer a {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 992px){
+
+    /* Media queries hosting */
+
+    .hosting {
+        flex-direction: column;
+    }
+    .popularHostingGrid {
+        flex-direction: row;
+    }
+    .popularHosting {
+        width: 100%;
+    }
+    .popularHostingCard {
+        width: 30%;
+    }
+
+    /* Media queries Activités */
+
+    .activitiesContainer {
+        flex-direction: row;
+        height: auto;
+    }
+    .activitiesContainer a {
+        height: 267px;
+    }
+    figcaption {
+        height: 20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Media queries Header */
+
+    body {
+        padding: 0;
+    }
+    .header {
+        flex-direction: column;
+        padding: 20px 0 0 0;
+    }
+    .headerImg {
+        justify-content: center;
+    }
+    .cta {
+        width: 100%;
+        border-bottom-color: #D9D9D9;
+    }
+    .cta:hover {
+        border-top-color: transparent;
+        border-bottom-color: #0065fc;
+    }
+    .navbarContainer {
+        width: 100%;
+    }
+
+    /* Media queries Search Zone */
+
+    .searchZone {
+        padding: 30px 50px 0 20px;
+    }
+    .searchForm i{
+        visibility: visible;
+        transition-delay: 0s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .searchBtnText {
+        display: none;
+    }
+
+    /* Media queries filtres */
+
+    .filters {
+        width: calc(44%);
+        padding: 10px 0 10px 10px;
+        margin-bottom: 10px;
+    }
+    .filtersZone {
+        padding: 0 20px;
+    }
+    .filtersZoneTitle {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .filtersName {
+        font-size: 11px;
+    }
+    .result {
+        padding-left: 20px;
+    }
+
+    /* Media queries Hosting */
+
+    .mainHosting {
+        order: 1;
+        background-color: white;
+        padding: 25px 20px 40px 20px;
+    }
+    .mainHostingGrid {
+        flex-direction: column;
+        width: 100%;
+    }
+    .mainHostingCard {
+        width: 100%;
+    }
+    .popularHosting {
+        order: 0;
+        padding: 25px 20px 40px 20px;
+        border-radius: 0px;
+    }
+    .popularHostingGrid {
+        flex-direction: column;
+    }
+    .popularHostingCard {
+        width: 100%;
+    }
+
+    /* Media queries Activités */
+
+    .activities {
+        padding: 25px 20px 40px 20px;
+    }
+    .activitiesContainer {
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+    .activitiesContainer a {
+        width: 100%;
+        height: 190px;
+    }
+    figcaption {
+        height: 22%;
+    }
+
+    /* Media queries Footer */
+
     .footer {
         flex-direction: column;
+        padding-left: 30px;
     }
     .about, .ourHosting, .help {
         width: 100%;
