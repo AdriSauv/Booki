@@ -463,6 +463,7 @@ figcaption {
     }
     .popularHosting {
         width: 100%;
+        margin-top: 50px;
     }
     .popularHostingCard {
         width: 30%;
