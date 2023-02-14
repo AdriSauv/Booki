@@ -81,7 +81,7 @@ a {
 
 .searchFormArea {
     border: 1px solid #F2F2F2;
-    padding: 0 25px;
+    padding: 0 0 0 25px;
 }
 
 ::placeholder  {
@@ -187,13 +187,13 @@ a {
 .mainHosting {
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 30px 30px;
+    padding: 30px 0 40px 30px;
 }
 
 .mainHostingGrid {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 25px;
 
 }
 
@@ -209,7 +209,7 @@ a {
     background-color: white;
     border-radius: 20px;
     padding: 5px;
-    width: 29%;
+    width: 30%;
     height: 100%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -224,7 +224,7 @@ a {
 }
 
 .hostingCardTitle {
-    margin: 4px 0 0 15px;
+    margin: 0 0 0 15px;
     font-size: 16px;
 }
 
@@ -251,7 +251,7 @@ a {
 }
 
 .mainHostingGridFooterTitle {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 /* Design popular hosting */
@@ -260,15 +260,14 @@ a {
     width: 40%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 30px 30px 30px 30px;
+    padding: 30px 30px 50px 30px;
 }
 
 .popularHostingGrid {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 25px;
-    margin-top: 40px;
+    gap: 20px;
     height: 100%;
 }
 
@@ -466,7 +465,20 @@ figcaption {
         margin-top: 50px;
     }
     .popularHostingCard {
-        width: 30%;
+        width: 33%;
+    }
+    .popularHostingCardDesc {
+        padding: 7px;
+        font-size: 13px;
+    }
+    .popularHostingCardDesc .hostingCardTitle {
+        margin-left: 2px;
+    }
+    .popularHostingCardDesc .hostingCardDesc {
+        margin-left: 2px;
+    }
+    .popularHostingCardDesc .star-rating {
+        padding: 2px;
     }
 
     /* Media queries Activités */
