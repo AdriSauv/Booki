@@ -121,7 +121,7 @@ a {
     display: flex;
     margin-top: 30px;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
 }
 
 .filtersZoneTitle {
@@ -566,6 +566,9 @@ figcaption {
 
     /* Media queries Hosting */
 
+    .hosting {
+        gap: 0px;
+    }
     .mainHosting {
         order: 1;
         background-color: white;
@@ -597,6 +600,7 @@ figcaption {
 
     .activities {
         padding: 25px 20px 40px 20px;
+        margin-top: 0;
     }
     .activitiesContainer {
         flex-direction: column;
