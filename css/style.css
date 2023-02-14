@@ -75,7 +75,7 @@ a {
 .fa-location-dot {
     background-color: #F2F2F2;
     padding: 15px 20px;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 15px 0px 0px 15px;
     text-align: center;
 }
 
@@ -98,7 +98,7 @@ a {
 .searchBtn {
     background-color: #0065fc;
     color: white;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 15px 15px 0px;
     border: none;
     padding: 0 25px;
     font-weight: 700;
@@ -462,7 +462,6 @@ figcaption {
     }
     .popularHosting {
         width: 100%;
-        margin-top: 50px;
     }
     .popularHostingCard {
         width: 33%;
@@ -524,7 +523,13 @@ figcaption {
     /* Media queries Search Zone */
 
     .searchZone {
-        padding: 30px 50px 0 20px;
+        padding: 30px 20px 0 20px;
+    }
+    .searchForm {
+        width: 100%;
+    }
+    .searchFormArea {
+        width: 100%;
     }
     .searchForm i{
         visibility: visible;
@@ -545,7 +550,7 @@ figcaption {
         margin-bottom: 10px;
     }
     .filtersZone {
-        padding: 0 20px;
+        padding: 0 0 0 20px;
     }
     .filtersZoneTitle {
         width: 100%;
